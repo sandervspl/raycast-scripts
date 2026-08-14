@@ -12,6 +12,6 @@
 # @raycast.description Generate a random 32-bit hex string with openssl rand
 # @raycast.author sandervspl
 
-set randomString to do shell script "openssl rand -hex 32"
+set randomString to do shell script "openssl rand -hex 16"
 set the clipboard to randomString
 log randomString
